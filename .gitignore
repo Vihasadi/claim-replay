@@ -1,0 +1,27 @@
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+
+# Generated data: CRM copies, replays and logs stay on your machine
+data/
+*.sqlite3
+*.db
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
